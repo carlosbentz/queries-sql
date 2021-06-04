@@ -38,9 +38,37 @@ ADD COLUMN
 	pts INTEGER;
 
 UPDATE kopas
-SET
-	pts  = (237)
-WHERE selecao LIKE 'Brasil';
+    SET
+        pts  = (221)
+    WHERE selecao LIKE 'Alemanha';
+UPDATE kopas
+    SET
+        pts  = (156)
+    WHERE selecao LIKE 'Itália';
+UPDATE kopas
+    SET
+        pts  = (144)
+    WHERE selecao LIKE 'Argentina';
+UPDATE kopas
+    SET
+        pts  = (115)
+    WHERE selecao LIKE 'França';
+UPDATE kopas
+    SET
+        pts  = (84)
+    WHERE selecao LIKE 'Uruguai';
+UPDATE kopas
+    SET
+        pts  = (108)
+    WHERE selecao LIKE 'Inglaterra';
+UPDATE kopas
+    SET
+        pts  = (105)
+    WHERE selecao LIKE 'Espanha';
+UPDATE kopas
+    SET
+        pts  = (237)
+    WHERE selecao LIKE 'Brasil';
 
 SELECT * FROM kopas
 
